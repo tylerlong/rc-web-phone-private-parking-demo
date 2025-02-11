@@ -1,0 +1,31 @@
+{
+  "formKey": "O3I8m2ydTtivVS8ol0dt0w/4",
+  "elements": [
+    {
+      "id": "O3I8m2ydTtivVS8ol0dt0w/1",
+      "adjustX": 0,
+      "adjustY": 0,
+      "color": "#00e06c",
+      "hidden": false,
+      "type": "Square",
+      "length": 420,
+      "cornerRadius": 64,
+      "__type": "Square"
+    },
+    {
+      "id": "O3I8m2ydTtivVS8ol0dt0w/3",
+      "adjustX": 88,
+      "adjustY": 66,
+      "color": "white",
+      "hidden": false,
+      "type": "Icon",
+      "scale": 1.5,
+      "path": [
+        "font-awesome",
+        "solid",
+        "square-parking"
+      ],
+      "__type": "Icon"
+    }
+  ]
+}
