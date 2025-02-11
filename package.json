@@ -1,0 +1,8 @@
+{
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "sass-embedded": "^1.83.4",
+    "vite": "^6.1.0"
+  }
+}
