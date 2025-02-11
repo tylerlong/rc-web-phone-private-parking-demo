@@ -1,5 +1,12 @@
 {
   "tasks": {
+    "lint": "deno fmt && deno lint --fix",
     "serve": "deno run -A npm:vite"
+  },
+  "compilerOptions": {
+    "lib": [
+      "DOM"
+    ],
+    "jsx": "react-jsx"
   }
 }
