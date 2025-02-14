@@ -2,12 +2,9 @@
   "license": "MIT",
   "type": "module",
   "devDependencies": {
+    "@deno/vite-plugin": "^1.0.4",
     "@types/node": "^22.13.4",
-    "@types/react": "^19.0.8",
-    "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.3.4",
-    "manate": "^2.0.0-rc.3",
-    "react": "^19.0.0",
     "sass-embedded": "^1.83.4",
     "vite": "^6.1.0"
   }

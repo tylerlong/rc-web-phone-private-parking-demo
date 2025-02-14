@@ -1,3 +1,4 @@
+import React from "https://esm.sh/react@19.0.0";
 import { createRoot } from "https://esm.sh/react-dom@19.0.0/client";
 import WebPhone from "https://esm.sh/ringcentral-web-phone@2.0.9";
 

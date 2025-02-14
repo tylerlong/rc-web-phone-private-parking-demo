@@ -7,6 +7,6 @@
     "lib": [
       "DOM"
     ],
-    "jsx": "react-jsx"
+    "jsx": "react"
   }
 }
