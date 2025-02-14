@@ -1,6 +1,7 @@
 {
   "version": "4",
   "specifiers": {
+    "npm:@types/node@^22.13.4": "22.13.4",
     "npm:@types/react-dom@^19.0.3": "19.0.3_@types+react@19.0.8",
     "npm:@types/react@^19.0.8": "19.0.8",
     "npm:@vitejs/plugin-react@^4.3.4": "4.3.4_vite@6.1.0_@babel+core@7.26.8",
@@ -347,6 +348,12 @@
     "@types/gensync@1.0.4": {
       "integrity": "sha512-C3YYeRQWp2fmq9OryX+FoDy8nXS6scQ7dPptD8LnFDAUNcKWJjXQKDNJD3HVm+kOUsXhTOkpi69vI4EuAr95bA=="
     },
+    "@types/node@22.13.4": {
+      "integrity": "sha512-ywP2X0DYtX3y08eFVx5fNIw7/uIv8hYUKgXoK8oayJlLnKcRfEYCxWMVE1XagUdVtCJlZT1AU4LXEABW+L1Peg==",
+      "dependencies": [
+        "undici-types"
+      ]
+    },
     "@types/react-dom@19.0.3_@types+react@19.0.8": {
       "integrity": "sha512-0Knk+HJiMP/qOZgMyNFamlIjw9OFCsyC2ZbigmEEyXXixgre6IQpm/4V+r3qH4GC1JPvRJKInw+on2rV6YZLeA==",
       "dependencies": [
@@ -678,6 +685,9 @@
     "tslib@2.8.1": {
       "integrity": "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w=="
     },
+    "undici-types@6.20.0": {
+      "integrity": "sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg=="
+    },
     "update-browserslist-db@1.1.2_browserslist@4.24.4": {
       "integrity": "sha512-PPypAm5qvlD7XMZC3BujecnaOxwhrtoFR+Dqkk5Aa/6DssiH0ibKoketaj9w8LP7Bont1rYeoV5plxD7RTEPRg==",
       "dependencies": [
@@ -705,9 +715,33 @@
       "integrity": "sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g=="
     }
   },
+  "redirects": {
+    "https://esm.sh/@types/blueimp-md5@~2.18.2/index.d.ts": "https://esm.sh/@types/blueimp-md5@2.18.2/index.d.ts",
+    "https://esm.sh/@types/sdp-transform@~2.4.9/index.d.ts": "https://esm.sh/@types/sdp-transform@2.4.9/index.d.ts",
+    "https://esm.sh/blueimp-md5@^2.19.0?target=denonext": "https://esm.sh/blueimp-md5@2.19.0?target=denonext",
+    "https://esm.sh/fast-xml-parser@^4.5.1?target=denonext": "https://esm.sh/fast-xml-parser@4.5.1?target=denonext",
+    "https://esm.sh/sdp-transform@^2.15.0?target=denonext": "https://esm.sh/sdp-transform@2.15.0?target=denonext",
+    "https://esm.sh/strnum@^1.0.5?target=denonext": "https://esm.sh/strnum@1.0.5?target=denonext",
+    "https://esm.sh/uuid@^11.0.5?target=denonext": "https://esm.sh/uuid@11.0.5?target=denonext"
+  },
+  "remote": {
+    "https://esm.sh/blueimp-md5@2.19.0/denonext/blueimp-md5.mjs": "77e4d25c97654ab526fd5ba67dabdef2826e4eda915c0f8d5c04bcb1c73121bd",
+    "https://esm.sh/blueimp-md5@2.19.0?target=denonext": "102e0cbd10b3ae9ea4869ebd6cdfcac26fffb41d1649dae527d2cf771b57a3b6",
+    "https://esm.sh/fast-xml-parser@4.5.1/denonext/fast-xml-parser.mjs": "1784889f6d780be64a0c40bff124d6c0520934770e43cce7a16a62a09347c6e4",
+    "https://esm.sh/fast-xml-parser@4.5.1?target=denonext": "a6373da3257457c274dd56e4d06bf1a48e84bbd69b0c14cbe1e37e2a04252bd9",
+    "https://esm.sh/ringcentral-web-phone@2.0.9": "6fa0c15f1dbd0d4ac5adda14a206ff8750ea427e812b09e1716948e426dc8f52",
+    "https://esm.sh/ringcentral-web-phone@2.0.9/denonext/ringcentral-web-phone.mjs": "dd1d2ac7d0cceb8ea916c912cda84c036dcf83ae349044f7b402e0a163396af4",
+    "https://esm.sh/sdp-transform@2.15.0/denonext/sdp-transform.mjs": "ecab85fd0670c2d6f5616ee43dd8eafe0c2279b01130f5bc172fd6dfde7252ff",
+    "https://esm.sh/sdp-transform@2.15.0?target=denonext": "737e4a4a50f7e9841acc26b39decfb16d70136c32d68ba166c32c35a04f2948c",
+    "https://esm.sh/strnum@1.0.5/denonext/strnum.mjs": "a79db7676ee143f3b685a2bb5d5aa0475ea647895d67b12142aae4ce6479a070",
+    "https://esm.sh/strnum@1.0.5?target=denonext": "a36a4c6b37dbd5753967ada4f04e003a439ae3e9be0c67f26f1128c662ec791f",
+    "https://esm.sh/uuid@11.0.5/denonext/uuid.mjs": "441f9711cf2eaf6e199f81c37a0210b862c443a27e0ff81859137314c100db36",
+    "https://esm.sh/uuid@11.0.5?target=denonext": "f5a04b628cced1e4f139ece800be173ad2cdffec8114e91b966346b59e9abaf5"
+  },
   "workspace": {
     "packageJson": {
       "dependencies": [
+        "npm:@types/node@^22.13.4",
         "npm:@types/react-dom@^19.0.3",
         "npm:@types/react@^19.0.8",
         "npm:@vitejs/plugin-react@^4.3.4",
