@@ -1,6 +1,4 @@
 {
-  "license": "MIT",
-  "type": "module",
   "devDependencies": {
     "@types/node": "^22.13.5",
     "sass-embedded": "^1.85.0",

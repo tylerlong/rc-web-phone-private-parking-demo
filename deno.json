@@ -7,7 +7,6 @@
   "compilerOptions": {
     "lib": [
       "DOM"
-    ],
-    "jsx": "react"
+    ]
   }
 }
