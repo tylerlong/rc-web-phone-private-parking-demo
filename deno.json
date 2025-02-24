@@ -1,7 +1,8 @@
 {
   "tasks": {
     "lint": "deno fmt && deno lint --fix",
-    "serve": "deno run -A npm:vite"
+    "serve": "deno run -A npm:vite",
+    "reinstall": "rm -rf node_modules && deno install"
   },
   "compilerOptions": {
     "lib": [
