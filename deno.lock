@@ -498,6 +498,7 @@
     "https://esm.sh/utf-8-validate?target=denonext": "https://esm.sh/utf-8-validate@6.0.5?target=denonext",
     "https://esm.sh/uuid@^11.0.5?target=denonext": "https://esm.sh/uuid@11.0.5?target=denonext",
     "https://esm.sh/vite@^6.0.7?target=denonext": "https://esm.sh/vite@6.1.0?target=denonext",
+    "https://esm.sh/wait-for-async:0.7.13": "https://esm.sh/wait-for-async@0.7.13",
     "https://esm.sh/yallist@^3.0.2?target=denonext": "https://esm.sh/yallist@3.1.1?target=denonext",
     "https://esm.sh/yaml@^2.4.2?target=denonext": "https://esm.sh/yaml@2.7.0?target=denonext"
   },
@@ -731,6 +732,8 @@
     "https://esm.sh/vite@6.1.0/denonext/module-runner.mjs": "a9100b9eeedfa70e2a8d7ec1a961375f7a076a37c244d8c9845399259422ddd6",
     "https://esm.sh/vite@6.1.0/denonext/vite.mjs": "1601ac66c9fd490dcb07e27593dbe03a334c35dc724c7631d55ff489410e4a09",
     "https://esm.sh/vite@6.1.0?target=denonext": "3d0c4621b1ecc815b45394a19c81d7d1943846a0d5c5ef0d4cc9eb010b73007b",
+    "https://esm.sh/wait-for-async@0.7.13": "068edfd58b0a9af4533a6b42b2630107fd0059f5eed1030aae5b3065410419ee",
+    "https://esm.sh/wait-for-async@0.7.13/denonext/wait-for-async.mjs": "6573ef4d9d981c7ffaee33bdc79332b9e1a8f77ae29bf6922e1b2323b3a08b2d",
     "https://esm.sh/yallist@3.1.1/denonext/yallist.mjs": "76b3e3ad7a337df6d1795e47b98a4f30aed06971c2492bb0c232593e60335c6f",
     "https://esm.sh/yallist@3.1.1?target=denonext": "4f07bda00d618b2049d45e68ddd9e0ebb700b51bc8f2ebb2dedd3e8d04994a97",
     "https://esm.sh/yaml@2.7.0/denonext/browser/dist/doc/anchors.mjs": "de806cc83f471d6e660fa30a82a78f689070bef161636e92f20a2191a403591f",
