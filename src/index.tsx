@@ -49,7 +49,7 @@ webPhone.on("inboundCall", async (inbundCallSession: InboundCallSession) => {
       {
         headers: {
           Replaces:
-            `${telephonySessionId};to-tag=${toTag};from-tag=${fromTag};early-only`,
+            `${telephonySessionId};to-tag=${fromTag};from-tag=${toTag};early-only`,
         },
       },
     );
